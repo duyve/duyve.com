@@ -1,0 +1,24 @@
+{
+  "name": "duyve.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyve/duyve.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyve/duyve.com/issues"
+  },
+  "homepage": "https://github.com/duyve/duyve.com#readme"
+}
