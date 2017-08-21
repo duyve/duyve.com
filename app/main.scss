@@ -1,0 +1,41 @@
+@import 'shared/styles/reset';
+@import 'shared/styles/variables';
+@import "Home/Home";
+@import "Header/Header";
+@import "Footer/Footer";
+@import "Navigation/Navigation-Tab";
+
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.splash-container {
+  height: 33vh;
+  width: 100%;
+  max-height: 33vh;
+}
+
+.splash-cover-angle {
+  background-color: $primary-color;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  height: inherit;
+  transition: height 0.3s ease-out;
+  overflow: hidden;
+  z-index: 501;
+
+  &:hover {
+    height: 0;
+  }
+}
+
+.splash-content {
+  position: absolute;
+  background-color: red;
+  width: inherit;
+  height: inherit;
+  z-index: 500;
+}

@@ -1,15 +1,16 @@
 var path = require("path");
 
 module.exports = {
-  entry: "./app/entry.js",
+  entry: "./app/default.module.js",
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: "bundle.js",
-    publicPath: 'public/assets/'
+    publicPath: "/",
+    filename: "default.bundle.js",
   },
   module: {
     loaders: [
-      {test: /\.css$/, loader: "style-loader!css-loader"}
+      {test: /\.css$/, loader: "style-loader!css-loader"},
+      {test: /\.scss$/, loader: "style-loader!css-loader!sass-loader"}
     ]
   },
   devServer: {

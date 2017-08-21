@@ -1,0 +1,17 @@
+@import '../shared/styles/variables';
+
+#Navigation-Tab {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100vw;
+  background-color: $secondary-color;
+
+  & > div {
+    height: inherit;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+  }
+
+}

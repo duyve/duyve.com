@@ -1,0 +1,14 @@
+@mixin flex-box {
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin flex-direction($direction) {
+  -webkit-flex-direction: $direction;
+  flex-direction: $direction;
+}
+
+@mixin flex-justify-content($value){
+  -webkit-justify-content: $value;
+  justify-content: $value;
+}
